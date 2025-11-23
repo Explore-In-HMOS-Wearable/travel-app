@@ -14,12 +14,6 @@ export struct AppBar {
     .width('100%')
     .padding({ left: 16, right: 16 })
     .margin({top: 2})
-    // .shadow({
-    //   radius: 10,
-    //   color: Color.Grey,
-    //   offsetX: 0,
-    //   offsetY: 4,
-    // })
     .justifyContent(FlexAlign.Center);
   }
 }

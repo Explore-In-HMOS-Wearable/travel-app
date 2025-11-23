@@ -1,9 +1,6 @@
 {
   "src": [
     "ui/pages/Index",
-    "ui/pages/Museums",
-    "ui/pages/Restaurants",
-    "ui/pages/MuseumDetailPage",
     "ui/pages/RestaurantDetailPage"
   ]
 }

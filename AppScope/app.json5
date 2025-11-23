@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.travel_app",
-    "vendor": "example",
+    "bundleName": "com.hmosdemos.travelapp",
+    "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",
     "icon": "$media:layered_image",

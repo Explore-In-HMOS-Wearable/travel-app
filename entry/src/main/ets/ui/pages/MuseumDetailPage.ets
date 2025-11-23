@@ -1,17 +1,14 @@
-import { NumberCons } from '../../core/constants/NumberCons';
 import { AppBar } from '../widgets/AppBar';
-import { ArcList, ArcListItem, ArcListAttribute, ArcListItemAttribute, ComponentContent } from '@kit.ArkUI';
 import { CategoryItemModel } from '../../core/models/CategoryItemModel';
 import { MuseumsViewModel } from '../viewmodels/MuseumsViewModel';
-import { SingleMenuItem } from '../widgets/SingleMenuItem';
 import { RouteService } from '../../core/services/RouteService';
 
-@Entry
 @Component
-struct MuseumDetailPage {
+export struct MuseumDetailPage {
   indexVm: MuseumsViewModel = new MuseumsViewModel();
   context: UIContext = this.getUIContext();
   itemModel = RouteService.instance().argument as CategoryItemModel
+  @Consume('NavPathStack') pageStack: NavPathStack;
 
   build() {
     Column() {
